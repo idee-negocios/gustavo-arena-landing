@@ -1,11 +1,15 @@
 @import "../../styles/colors";
+@import "../../styles/responsive";
 
 h2{
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   color:$blue;
   padding: 1rem 1rem;
+  @include sm{
+    font-size: 3rem;
+  }
 }
 p{
   padding: 1.3rem;
@@ -68,7 +72,10 @@ p{
 }
 .text-pink{
   color:$pink;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: justify;
   font-weight: bold;
+  @include sm {
+    font-size: 1.5rem;
+  }
 }
