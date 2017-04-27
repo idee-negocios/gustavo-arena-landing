@@ -1,0 +1,99 @@
+@import "../../styles/colors";
+@import "../../styles/responsive";
+
+.balance {
+  h2 {
+    color: $purple;
+    font-size: 1.5rem;
+    padding: 2rem 1.5rem;
+    text-transform: uppercase;
+  }
+
+  .balance-content {
+    .col-1 {
+      background-color: $light-gray;
+
+      .productivity-graph {
+        padding: 2rem 1.5rem;
+        padding-bottom: 0;
+
+        > .row {
+          margin-bottom: 1rem;
+        }
+
+        .productivity-title {
+          color: $pink;
+          font-size: 1.5rem;
+          font-weight: bold;
+          text-align: center;
+          text-transform: uppercase;
+        }
+
+        .productivity-year {
+          color: $gray;
+          font-size: 1.2rem;
+          font-weight: bold;
+          text-align: center;
+        }
+
+        .productivity-box-1, .productivity-box-2, .productivity-box-3 {
+          color: $white;
+          font-weight: 900;
+          font-size: 2rem;
+          // margin: 0 1rem;
+          padding: 2rem 0;
+          text-align: center;
+        }
+
+        .productivity-box-1 {
+          background-color: $light-purple;
+          height: 60px;
+        }
+
+        .productivity-box-2 {
+          background-color: $purple;
+          height: 120px;
+        }
+
+        .productivity-box-3 {
+          background-color: $light-blue;
+          font-size: 3rem;
+          padding: 2rem 0;
+        }
+      }
+
+      .productivity-text {
+        margin-top: 1rem;
+
+        p {
+          line-height: 1.2;
+          padding: 1rem 2rem;
+        }
+      }
+    }
+
+    .col-2 {
+      padding: 0 1.5rem;
+
+      .productivity-box {
+        background-color: $light-blue;
+        margin-bottom: 1rem;
+        padding: 2rem 1.5rem;
+
+        h4 {
+          color: $white;
+          font-size: 2rem;
+          font-weight: 900;
+          line-height: 1.2;
+          text-transform: uppercase;
+        }
+      }
+
+      p {
+        line-height: 1.2;
+        padding: 1rem 2rem;
+      }
+    }
+
+  }
+}

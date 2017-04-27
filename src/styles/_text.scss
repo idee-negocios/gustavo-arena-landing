@@ -1,0 +1,22 @@
+$align-prefixes: left center right;
+@each $p in $align-prefixes {
+  .text-#{$p} {
+    text-align: #{$p};
+  }
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.text-lower {
+  text-transform: lowercase;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-bold {
+  font-weight: 900;
+}

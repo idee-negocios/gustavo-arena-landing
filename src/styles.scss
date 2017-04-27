@@ -1,6 +1,14 @@
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 // global
 @import "~reset-css/reset";
 @import "~flexboxgrid/dist/flexboxgrid";
+
+html, body {
+  font-family: 'Ubuntu', Arial, sans-serif;
+  letter-spacing: 1px;
+}
 
 // remove margin and padding from flexboxgrid
 .container-fluid, .row {
@@ -19,3 +27,4 @@
 
 // custom
 @import "./styles/colors";
+@import "./styles/text";
