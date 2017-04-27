@@ -1,5 +1,22 @@
 // global
-@import "~normalize-scss";
+@import "~reset-css/reset";
+@import "~flexboxgrid/dist/flexboxgrid";
+
+// remove margin and padding from flexboxgrid
+.container-fluid, .row {
+  margin: 0;
+  padding: 0;
+}
+
+@for $i from 1 through 12 {
+  $prefixes: xs sm md lg;
+  @each $p in $prefixes {
+    .col-#{$p}-#{$i} {
+      padding: 0;
+    }
+  }
+}
 
 // custom
+@import "./styles/grid";
 @import "./styles/colors";
