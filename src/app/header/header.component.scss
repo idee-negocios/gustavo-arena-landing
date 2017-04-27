@@ -1,6 +1,29 @@
+@import "../../styles/colors";
+
 .header {
-  img {
-    width: 100%;
-    height: auto;
+  .header-image {
+    flex: 0;
+
+    img {
+      width: auto;
+      height: auto;
+    }
+  }
+
+  @media only screen and (max-width: 48em) {
+    .header-image {
+      flex: auto;
+      width: 100%;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .header-content {
+    background-color: $light-gray;
+    display: inline-block;
   }
 }
