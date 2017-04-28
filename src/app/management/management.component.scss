@@ -1,2 +1,60 @@
 @import "../../styles/colors";
 @import "../../styles/responsive";
+.moved{
+  transform: translateY(50%);
+}
+.circle-pink{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: $pink;
+  margin: 25px 20px;
+  p{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: 30%;
+    padding: 10px 0px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: $white;
+  }
+}
+.circle-purple{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: $light-purple;
+  margin: 25px 20px;
+  p{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: 30%;
+    padding: 10px 0px;
+    color: $white;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+}
+.circle-blue{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: $light-blue;
+  margin: 25px 20px;
+  p{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: 30%;
+    padding: 10px 0px;
+    color: $white;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+}
+
+.circles{
+  background-color: $purple;
+}
