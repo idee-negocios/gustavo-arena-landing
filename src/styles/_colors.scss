@@ -12,3 +12,35 @@ $gray: rgb(128, 131, 137);
 $dark-gray: rgb(93, 93, 93);
 $darker-gray: rgb(81, 82, 82);
 $black: rgb(0, 0, 0);
+
+.bg-lb{
+  background-color: $light-blue;
+}
+.bg-pk{
+  background-color: $pink;
+}
+.bg-lp{
+  background-color: $light-purple;
+}
+.bg-pu{
+  background-color: $purple;
+}
+.bl{
+  color: $blue;
+}
+.wh{
+  color: $white;
+}
+.pk{
+  color: $pink;
+}
+
+ul{
+  li{
+  list-style: circle;
+  list-style-position: inside;
+  }
+  p{
+    margin-left: 32px;
+  }
+}

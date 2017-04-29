@@ -13,6 +13,8 @@ import { StatisticsComponent } from './statistics/statistics.component';
 import { ManagementComponent } from './management/management.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
+import { CirclesComponent } from './management/circles/circles.component';
+import { GridComponent } from './management/grid/grid.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ContactComponent } from './contact/contact.component';
     StatisticsComponent,
     ManagementComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    CirclesComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,
