@@ -2,13 +2,6 @@
 @import "../../styles/responsive";
 
 .balance {
-  h2 {
-    color: $purple;
-    font-size: 1.5rem;
-    padding: 2rem 1.5rem;
-    text-transform: uppercase;
-  }
-
   .balance-content {
     .col-1 {
       background-color: $light-gray;
@@ -47,7 +40,7 @@
 
         .productivity-box-1 {
           background-color: $light-purple;
-          height: 60px;
+          height: 40px;
         }
 
         .productivity-box-2 {
@@ -63,17 +56,18 @@
       }
 
       .productivity-text {
-        margin-top: 1rem;
-
         p {
-          line-height: 1.2;
-          padding: 1rem 2rem;
+          margin-bottom: 1rem;
+          line-height: 1.4;
+          padding: 0 1.5rem;
         }
       }
     }
 
     .col-2 {
-      padding: 0 1.5rem;
+      @include sm {
+        padding: 0 1.5rem;
+      }
 
       .productivity-box {
         background-color: $light-blue;
@@ -90,8 +84,9 @@
       }
 
       p {
-        line-height: 1.2;
-        padding: 1rem 2rem;
+        margin-bottom: 1rem;
+        line-height: 1.4;
+        // padding: 1rem 2rem;
       }
     }
 

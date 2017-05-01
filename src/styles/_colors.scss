@@ -13,26 +13,94 @@ $dark-gray: rgb(93, 93, 93);
 $darker-gray: rgb(81, 82, 82);
 $black: rgb(0, 0, 0);
 
-.bg-lb{
+// background
+.bg-light-blue {
   background-color: $light-blue;
 }
-.bg-pk{
-  background-color: $pink;
+
+.bg-blue {
+  background-color: $blue;
 }
-.bg-lp{
+
+.bg-light-purple {
   background-color: $light-purple;
 }
-.bg-pu{
+
+.bg-purple {
   background-color: $purple;
 }
-.bl{
+
+.bg-pink {
+  background-color: $pink;
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+.bg-light-gray {
+  background-color: $light-gray;
+}
+
+.bg-gray {
+  background-color: $gray;
+}
+
+.bg-dark-gray {
+  background-color: $dark-gray;
+}
+
+.bg-darker-gray {
+  background-color: $darker-gray;
+}
+
+.bg-black {
+  background-color: $black;
+}
+
+// color
+.light-blue {
+  color: $light-blue;
+}
+
+.blue {
   color: $blue;
 }
-.wh{
+
+.light-purple {
+  color: $light-purple;
+}
+
+.purple {
+  color: $purple;
+}
+
+.pink {
+  color: $pink;
+}
+
+.white {
   color: $white;
 }
-.pk{
-  color: $pink;
+
+.light-gray {
+  color: $light-gray;
+}
+
+.gray {
+  color: $gray;
+}
+
+.dark-gray {
+  color: $dark-gray;
+}
+
+.darker-gray {
+  color: $darker-gray;
+}
+
+.black {
+  color: $black;
 }
 
 ul{

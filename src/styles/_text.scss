@@ -1,4 +1,4 @@
-$align-prefixes: left center right;
+$align-prefixes: left center right justify;
 @each $p in $align-prefixes {
   .text-#{$p} {
     text-align: #{$p};

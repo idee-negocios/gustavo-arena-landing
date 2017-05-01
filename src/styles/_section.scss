@@ -1,0 +1,25 @@
+@import "./styles/colors";
+@import "./styles/responsive";
+
+.section {
+  margin-bottom: 1rem 0;
+  padding: 1rem 0;
+
+  .title {
+    color: $purple;
+    font-size: 1.5rem;
+    padding: 2rem 1.5rem;
+    text-transform: uppercase;
+  }
+  .content {
+    padding: 0 1.5rem;
+    margin-bottom: 1.5rem;
+
+    p {
+      font-size: 1rem;
+      line-height: 1.4;
+      text-align: justify;
+      margin-bottom: 1rem
+    }
+  }
+}

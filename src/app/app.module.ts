@@ -15,7 +15,6 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { CirclesComponent } from './management/circles/circles.component';
 import { GridComponent } from './management/grid/grid.component';
-import { HeaderTitleComponent } from './header/header-title/header-title.component';
 
 @NgModule({
   declarations: [
@@ -29,8 +28,7 @@ import { HeaderTitleComponent } from './header/header-title/header-title.compone
     ProjectsComponent,
     ContactComponent,
     CirclesComponent,
-    GridComponent,
-    HeaderTitleComponent
+    GridComponent
   ],
   imports: [
     BrowserModule,
