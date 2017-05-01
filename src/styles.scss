@@ -11,20 +11,54 @@ html, body {
 }
 
 // remove margin and padding from flexboxgrid
-.container-fluid, .row {
+// .container-fluid, .row {
+//   margin: 0;
+//   padding: 0;
+// }
+
+.pm-0 {
   margin: 0;
   padding: 0;
 }
 
-@for $i from 1 through 12 {
-  $prefixes: xs sm md lg;
-  @each $p in $prefixes {
-    .col-#{$p}-#{$i} {
-      padding: 0;
-    }
-  }
-}
+// @for $i from 1 through 12 {
+//   $prefixes: xs sm md lg;
+//   @each $p in $prefixes {
+//     .col-#{$p}-#{$i} {
+//       margin: 0;
+//       padding: 0;
+//     }
+//   }
+// }
 
 // custom
 @import "./styles/colors";
 @import "./styles/text";
+
+// utils
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.column {
+  @extend .row;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+@for $i from 1 through 10 {
+  .flex-#{$i} {
+    flex: $i;
+  }
+}
+
+.flex-center {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
