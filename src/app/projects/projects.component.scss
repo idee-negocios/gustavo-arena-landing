@@ -1,14 +1,16 @@
 @import "../../styles/colors";
 @import "../../styles/responsive";
 
-h2{
-  text-align: center;
-  font-size: 3rem;
-}
-h3{
-  text-align: center;
-  font-size: 2rem;
-}
-.text{
-  text-align: center;
+.projects {
+  .project {
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+
+    .project-title {
+      display: inline-block;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      padding: 0.5rem 1rem;
+    }
+  }
 }
