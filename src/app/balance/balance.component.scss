@@ -22,7 +22,7 @@
           font-weight: bold;
           text-align: center;
           text-transform: uppercase;
-          @include sm {
+          @include md {
             font-size: 1.5rem;
           }
 
@@ -40,7 +40,7 @@
           font-weight: 900;
           font-size: 1.3rem;
 
-          @include sm {
+          @include md {
             font-size: 2rem;
           }
           // margin: 0 1rem;
@@ -61,7 +61,7 @@
         .productivity-box-3 {
           background-color: $light-blue;
           font-size: 1.5rem;
-          @include sm {
+          @include md {
             font-size: 3rem;
           }
           padding: 2rem 0;
@@ -78,7 +78,7 @@
     }
 
     .col-2 {
-      @include sm {
+      @include md {
         padding-left: 1.5rem;
       }
 
