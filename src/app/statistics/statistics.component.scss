@@ -11,24 +11,36 @@
   padding: 1.2rem 0;
 
   .box-title {
-    font-size: 3rem;
+    font-size: 1.5rem;
+    @include sm {
+      font-size: 3rem;
+    }
   }
   .box-content {
     padding-left: 1rem;
 
     .position {
-      font-size: 1.5rem;
+      font-size: 1rem;
       margin-bottom: 1rem;
+      @include sm {
+        font-size: 1.5rem;
+      }
     }
 
     .name {
       font-size: 1rem;
       margin-bottom: 1rem;
+      @include sm {
+        font-size: 1.5rem;
+      }
     }
 
     .projects {
-      font-size: 1.5rem;
+      font-size: 0.9rem;
       margin: 0;
+      @include sm {
+        font-size: 1.5rem;
+      }
     }
   }
 }

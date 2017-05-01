@@ -9,7 +9,9 @@
   align-items: center;
   justify-content: center;
   align-content: center;
-  padding: 2rem 0;
+  @include sm {
+    padding: 2rem 0;
+  }
 
 }
 .circle{
@@ -21,7 +23,7 @@
   align-content: center;
   justify-content: center;
   margin: 10px 0px;
-
+  
   .circle-content{
     text-align: center;
     padding: 0 1rem;

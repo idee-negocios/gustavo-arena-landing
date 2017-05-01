@@ -16,10 +16,14 @@
 
         .productivity-title {
           color: $pink;
-          font-size: 1.5rem;
+          font-size: 1rem;
           font-weight: bold;
           text-align: center;
           text-transform: uppercase;
+          @include sm {
+            font-size: 1.5rem;
+          }
+
         }
 
         .productivity-year {
