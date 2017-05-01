@@ -19,7 +19,7 @@
     padding-top: 0;
   }
 
-  @include sm {
+  @include md {
     &:first-child {
       padding: 2rem 0;
     }

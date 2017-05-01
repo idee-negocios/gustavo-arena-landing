@@ -13,7 +13,7 @@
   .box-title {
     font-size: 1.5rem;
     padding: 0.5rem 0;
-    @include sm {
+    @include md {
       font-size: 3rem;
     }
   }
@@ -23,7 +23,7 @@
     .position {
       font-size: 1rem;
       margin-bottom: 1rem;
-      @include sm {
+      @include md {
         font-size: 1.5rem;
       }
     }
@@ -31,7 +31,7 @@
     .name {
       font-size: 1rem;
       margin-bottom: 1rem;
-      @include sm {
+      @include md {
         font-size: 1.5rem;
       }
     }
@@ -39,7 +39,7 @@
     .projects {
       font-size: 0.9rem;
       margin: 0;
-      @include sm {
+      @include md {
         font-size: 1.5rem;
       }
     }
