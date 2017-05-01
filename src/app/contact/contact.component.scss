@@ -1,0 +1,62 @@
+@import "../../styles/colors";
+@import "../../styles/responsive";
+
+.contact {
+  padding: 1rem 2rem;
+
+  .contact-info {
+    margin-bottom: 2rem;
+
+    @include md {
+      margin-bottom: 0;
+    }
+
+    .contact-item {
+      margin-bottom: 1rem;
+      @include sm {
+        margin-bottom: 0;
+      }
+
+      .contact-icon {
+        margin-right: 15px;
+
+        img {
+          width: 48px;
+          height: 48px;
+        }
+      }
+
+      .contact-link {
+        a {
+          color: $white;
+          font-size: 1.2rem;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .contact-button {
+    text-align: center;
+
+    .arrow-container {
+      .arrow {
+        color: $white;
+        font-size: 2rem;
+      }
+    }
+
+    .link-container {
+      padding: 1rem 2rem;
+
+      a {
+        color: $light-gray;
+        text-decoration: none;
+        font-size: 1rem;
+        @include sm {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
