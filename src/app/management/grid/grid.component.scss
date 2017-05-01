@@ -8,13 +8,26 @@
 .table{
   text-align: center;
   font-weight: bold;
-  font-size: 1.5rem;
-  width: 100%;
-}
-.number{
-  font-size: 5rem;
-  padding-top: 10px;
-}
-.space{
-padding: 1rem 0px;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+
+  .table-title {
+    font-size: 1.3rem;
+  }
+
+  .table-subtitle {
+    font-size: 1rem;
+  }
+
+  .table-total {
+    font-size: 2rem;
+  }
+
+  .number{
+    font-size: 3rem;
+  }
+
+  .space{
+    padding: 1rem 0px;
+  }
 }
