@@ -3,6 +3,8 @@
 
 .balance {
   .balance-content {
+    padding: 0 !important;
+
     .col-1 {
       background-color: $light-gray;
 
@@ -36,7 +38,11 @@
         .productivity-box-1, .productivity-box-2, .productivity-box-3 {
           color: $white;
           font-weight: 900;
-          font-size: 2rem;
+          font-size: 1.3rem;
+
+          @include sm {
+            font-size: 2rem;
+          }
           // margin: 0 1rem;
           padding: 2rem 0;
           text-align: center;
@@ -54,7 +60,10 @@
 
         .productivity-box-3 {
           background-color: $light-blue;
-          font-size: 3rem;
+          font-size: 1.5rem;
+          @include sm {
+            font-size: 3rem;
+          }
           padding: 2rem 0;
         }
       }
