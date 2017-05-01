@@ -3,7 +3,9 @@
 
 .projects {
   .project {
-    padding: 0 1rem;
+    @include sm {
+      padding: 0 1rem;
+    }
     margin-bottom: 2rem;
 
     .project-title {
